@@ -2,9 +2,24 @@
 body{background-color: #1c1c1c; color:white;}
  nav, section, article, footer
 {border:1px solid white; margin:5px; padding:8px;  }
-header{margin:5px; padding:8px; width:auto;}
+header{margin:5px; padding:8px; width:auto; padding-top: 75px;}
 section{width: 70%; float: left; overflow: auto;}
 nav ul {margin-left: 0px;}
+div {border: 1px solid white;}
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 30px;
+    padding: 1rem;
+    color: white;
+    background: teal;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  } 
 
 aside ul{margin: 0; padding: 0;}
 aside ul li{display:block; margin:5px;} 
