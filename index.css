@@ -5,7 +5,7 @@ body{background-color: #1c1c1c; color:white;}
 header{margin:5px; padding:8px; width:auto; padding-top: 75px;}
 section{width: 70%; float: left; overflow: auto;}
 nav ul {margin-left: 0px;}
-div {border: 1px solid white;}
+div {margin:5px; padding:8px; border: 1px solid white;}
 nav {
     position: fixed;
     top: 0;
