@@ -1,9 +1,9 @@
 @charset "utf-8";
 body{background-color: #1c1c1c; color:white; padding-top: 20px;}
- nav, section, article, footer
+section, article, footer
 {border:1px solid white; margin:5px; padding:8px;  }
 header{margin:5px; padding:8px; width:auto; padding-top: 75px;}
-section{margin:5px; padding:8px; width:100%; float: left; overflow: auto;}
+section{float: left; overflow: auto;}
 nav ul {margin-left: 0px;}
 div {margin:5px; padding:8px; border: 1px solid white;}
 nav {
@@ -17,7 +17,7 @@ nav {
     background: teal;
     font-weight: bold;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     overflow: auto;
   } 

@@ -16,7 +16,7 @@ nav {
   background: teal;
   font-weight: bold;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   overflow: auto;
 } 
@@ -31,5 +31,4 @@ h2#center{ text-align: center;}
 .asidefont{text-align: center; font-size:100%;}
 .fontHelvetica{ font-family: Helvetica;}
 
-
-p {font-size: 1.4em; text-align: center;}
+.numberhead {font-size: 1.4em; text-align: center;}
