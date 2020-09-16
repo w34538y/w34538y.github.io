@@ -2,8 +2,9 @@
 body{background-color: #1c1c1c; color:white; padding-top: 20px;}
 section, article, footer
 {border:1px solid white; margin:5px; padding:8px;  }
-header{margin:5px; padding:8px; width:auto; padding-top: 75px;}
+header{margin:5px; padding:8px; width:auto; padding-top: 15px;}
 nav ul {margin-left: 0px;}
+#displayArea {height:550px; overflow: auto;}
 div {margin:5px; padding:8px; border: 1px solid white;}
 nav {
     position: fixed;
