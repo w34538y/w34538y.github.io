@@ -1,0 +1,35 @@
+@charset "utf-8";
+    body{background-color: #1c1c1c; color:white;}  
+    nav, section, article, aside, footer
+    {border:1px solid gray; margin:5px; padding:8px; width:auto; color:white;}
+    header { margin:5px; padding:8px; width:auto; }
+    a:link {color:lightblue; text-decoration:none;} 
+    a:visited { color:lightsalmon; text-decoration:none;}
+    a:hover {color: lightgreen; text-decoration:underline;} 
+    a:active {color: lightblue; text-decoration:none;}
+    .fontHelvetica{ font-family: Helvetica;}
+    .textcenter{ text-align: center;}
+    .menubar{border:none;  border:0px; margin:0px; padding:0px; font: 67.5% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif; font-size:14px; font-weight:bold;height:"auto"}
+    .menubar ul{ background: lightblue;  height:50px; list-style:none; margin:0; padding:0;}
+    .menubar li{float:left; padding:0px; }
+    .menubar li a{ background: lightblue; color:#000000; display:block; font-weight:normal; line-height:50px; margin:0px; padding:0px 25px; text-align:center; text-decoration:none;}
+    .menubar li a:hover, .menubar ul li:hover a{ background: rgb(71,71,71); color:#000000; text-decoration:none;}
+    .menubar li ul{ background: lightblue; display:none; height:auto; padding:0px; margin:0px; border:0px; position:absolute; width:200px; z-index:200;}
+    .menubar li:hover ul{ display:block; }
+    .menubar li li { background: lightblue; display:block; float:none; margin:0px; padding:0px; width:200px; }
+    .menubar li:hover li a{ background:none; }
+    .menubar li ul a{ display:block; height:50px; font-size:12px; font-style:normal; margin:0px; padding:0px 10px 0px 15px; text-align:left;}
+    .menubar li ul a:hover, .menubar li ul li:hover a{background: lightslategray; border:0px; color:#000000; text-decoration:none; }
+    .menubar p{ clear:left; }
+    .fontsize_220{font-size: 220%;}
+    label, #toggle{display:none;} 
+
+
+    @media screen and (max-width: 550px)                            /*화면 너비 480px 이하에서 스타일 적용*/         
+{
+#nav{display:none;}                                                      /*메뉴 숨김*/ 
+#toggle:checked + #nav{display:block;}                          /*체크박스 선택되면 메뉴가 나타남*/
+#nav li{display:block;width:100%;text-align:center;} 
+label {display:block; text-align:center;background: lightblue;
+font-size:20px; font-weight:bold;}
+}

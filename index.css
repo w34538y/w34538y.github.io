@@ -1,0 +1,23 @@
+@charset "utf-8";
+body{background-color: #1c1c1c; color:white;}
+ nav, section, article, footer
+{border:1px solid white; margin:5px; padding:8px;  }
+header{margin:5px; padding:8px; width:auto;}
+section{width: 70%; float: left; overflow: auto;}
+nav ul {margin-left: 0px;}
+
+aside ul{margin: 0; padding: 0;}
+aside ul li{display:block; margin:5px;} 
+aside {margin:1px; padding:1px; width:auto;}
+aside{width: 22%;float: left;line-height: 30px;}
+footer{height: 50px; clear:both;}
+
+a:link {color:lightblue; text-decoration:none;} 
+a:visited { color:lightsalmon; text-decoration:none;}
+a:hover {color: lightgreen; text-decoration:underline;} 
+a:active {color: lightblue; text-decoration:none;}
+
+h2#center{ text-align: center;}
+.asidefont{text-align: center; font-size:100%;}
+.fontHelvetica{ font-family: Helvetica;}
+
