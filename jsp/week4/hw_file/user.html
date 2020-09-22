@@ -1,0 +1,21 @@
+<!DOCTYPE html> <!-- user.html -->
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>form fieldset 실습</title>
+	</head>
+	<body>
+		<h4>form fieldset 실습</h4><br/>
+		<form action="login_check.jsp" method="post">
+			<fieldset>
+				<legend>개인 정보</legend>
+					<label for="stud_user">아이디</label>
+					<input type="text" name="stud_user" size="15"/>
+					<label for="stud_passwd">비번</label>
+					<input type="password" name="stud_passwd" size="15"/>
+					<input type="submit" value="로그인">
+			</fieldset>
+		</form>
+	</body>
+</html>
